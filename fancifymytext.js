@@ -6,7 +6,7 @@ function makeTextBigger() {
 
 // Apply styles based on radio buttons
 function applyStyle() {
-	const textArea = document.getElementById("userText");
+	const textArea = document.getElementById("userTextArea");
 	if (document.getElementById("fancyShmancy").checked) {
 		alert("FancyShmancy selected!");
 		textArea.style.fontWeight = "bold";
